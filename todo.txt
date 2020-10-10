@@ -1,0 +1,5 @@
+/*
+* Retirer la duplication de code pour les mots compte double et triple 
+* Ajouter la partie sur les lettres compte double / triple
+*
+*
