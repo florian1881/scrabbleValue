@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/test.js"></script>
+    <title> Scrable Name Value : How much do you cost at Scabble</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+
+<body class="text-center">
+    <h1 id="titre" class="display-1 mb-5">Scrabble value</h1>
+    <div class="text-center">
+        <h2 class="display-3">Quel est le mot dont vous souhaitez connaitre la valeur ?</h2>
+        <form method="dialog">
+            <div class="form-group col-4 m-auto ">
+                <input type="text" class="form-control form-control-lg mt-5 text-center" id="mot" name="mot">
+            </div>
+        </form>
+    </div>
+    <input type="submit" class="btn btn-primary btn-lg mt-5" value="Valider" onclick="scrabbleConvert()">
+    <input type="submit" class="btn btn-primary btn-lg mt-5" value="Mot compte double" onclick="wordDouble()">
+    <input type="submit" class="btn btn-primary btn-lg mt-5" value="Mot compte triple" onclick="wordTriple()">
+</body>
+<div id=insert class="mt-5">
+    
+</div>
+
+</html>
